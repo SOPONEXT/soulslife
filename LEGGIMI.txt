@@ -1,0 +1,41 @@
+SOUL'S LIFE — Uno sguardo alla vita
+Versione locale navigabile del sito di Federico Paciotti
+(rifacimento del sito Google Sites "www-soulslife-it")
+
+COME APRIRLO
+-------------
+1) Doppio clic su "index.html" — si apre nel browser, funziona tutto offline.
+2) In alternativa, da terminale nella cartella:
+      python3 -m http.server 8000
+   e poi apri http://localhost:8000
+
+PAGINE
+-------
+index.html    Home — hero, manifesto "Anima e Vita", le quattro sezioni
+storia.html   La storia — biografia + timeline di 10 tappe
+sport.html    Sport — apnea, nuoto pinnato, corsa, palmarès
+terra.html    La terra — Zagarolo, gli alberi, Romeo, Camilla e Spillo
+viaggi.html   Viaggi — Londra, Alpi francesi, Gran Sasso, Harry Potter, Tremiti, Sardegna
+              (galleria con filtri + lightbox: clic su una foto, frecce per scorrere)
+scritti.html  Area riservata — libri e poesie (form dimostrativo, non attivo)
+
+FUNZIONI
+---------
+- Tema scuro / chiaro: pulsante in alto a destra (la preferenza resta salvata)
+- Menu mobile a tutto schermo, layout responsive
+- Animazioni allo scroll, contatori, barra di avanzamento lettura
+- Galleria filtrabile con lightbox (frecce tastiera, ESC per chiudere)
+
+CONTENUTI
+----------
+Tutti i testi provengono dal sito originale, riscritti in italiano corretto
+mantenendo fatti, nomi e voce dell'autore. Le 39 foto sono quelle originali,
+scaricate dal sito e rinominate in modo leggibile in assets/img/.
+
+DA COMPLETARE PRIMA DELLA PUBBLICAZIONE
+----------------------------------------
+- e-mail di contatto reale (ora è un segnaposto: info@soulslife.it)
+- attivazione vera dell'area riservata (password/login)
+- eventuale foto della Sardegna 2017 mancante nel sito originale
+- verifica dell'anno del Trofeo Apnea Umbria (la medaglia riporta 25/11/2018,
+  il testo originale parlava del 2019)
